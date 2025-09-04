@@ -1,7 +1,23 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
+  height: 100vh;
+  margin: 0;
   padding: 2rem;
   text-align: center;
 }
 
+.dashContainer{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.metricsGrid{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
