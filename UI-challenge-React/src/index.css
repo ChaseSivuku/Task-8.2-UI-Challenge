@@ -1,5 +1,6 @@
 body{
    background-color: hsl(226, 43%, 10%);
+   padding: 20px;
 }
 .main {
   font-family: "Rubik", sans-serif;

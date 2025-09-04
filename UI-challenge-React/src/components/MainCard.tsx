@@ -26,7 +26,7 @@ export const MainCard: React.FC <Props> = ({name, surname, pic}) => {
                 <div className={`${styles.values} ${stylesTwo.weekly}`}>
                     <ul>
                         <li>Daily</li>
-                        <li>Weekly</li>
+                        <li style={{color: 'white'}}>Weekly</li>
                         <li>Monthly</li>
                     </ul>
                 </div>

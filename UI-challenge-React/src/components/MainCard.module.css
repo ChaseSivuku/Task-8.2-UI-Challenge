@@ -70,4 +70,36 @@
     gap: 12px;
 }
 
+@media(max-width: 480px){
 
+    .cardContainer{
+        height: 200px;
+        width: 80vw;
+    }
+
+    .profile{
+        display: flex;
+        flex-direction: row;
+        height: 50%;
+    }
+
+    .profilePic{
+        height: 70px;
+        width: 70px;
+    }
+
+    .names{
+        font-size: 28px;
+        font-weight: 100;
+    }
+    
+    .values ul{
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin-bottom: 15px;
+        gap: 40px;
+    }
+}

@@ -67,3 +67,30 @@
     padding-top: 0;
     color: hsl(236, 100%, 87%);
 }
+
+@media (max-width: 480px){
+    .cardContainer{
+        width: 80vw;
+        height: 150px;
+    }
+    .info{
+        height: 65%;
+    }
+
+    .metrics{
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+    }
+
+    .time{
+        font-size: 28px;
+    }
+
+    .heading{
+        margin-top: 0;
+        padding: 0;
+        height: 50px;
+    }
+}
