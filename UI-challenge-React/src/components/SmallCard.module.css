@@ -44,6 +44,12 @@
     background-color: hsl(235, 46%, 20%);
     height: 80%;
 }
+
+.info:hover{
+    background-color: hsl(235, 45%, 61%);
+    cursor: pointer;
+}
+
 .metrics{
     display: flex;
     flex-direction: column;

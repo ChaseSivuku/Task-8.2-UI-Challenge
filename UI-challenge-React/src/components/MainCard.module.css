@@ -70,6 +70,13 @@
     gap: 12px;
 }
 
+.values ul li{
+        cursor: pointer;
+}
+.values ul li:hover{
+        color: white;
+}
+
 @media(max-width: 480px){
 
     .cardContainer{
@@ -102,4 +109,5 @@
         margin-bottom: 15px;
         gap: 40px;
     }
+
 }
