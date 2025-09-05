@@ -17,7 +17,6 @@ export const SmallCard: React.FC<Props> = ({type, backgroundC, time, weekly, hea
                 style={{
                     backgroundColor: backgroundC,
                     backgroundImage: `url(/images/${header})`
-                  
                 }}
             >
             </div>
